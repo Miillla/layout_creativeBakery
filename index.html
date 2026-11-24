@@ -1,19 +1,171 @@
 <!doctype html>
 <html lang="en">
-  <head>
+  <head class="page">
     <meta charset="UTF-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <title>Title</title>
+    <title>Bakerlab</title>
     <link
       rel="stylesheet"
       href="src/styles/main.scss"
     />
   </head>
-  <body>
-    <h1>Hello Mate Academy</h1>
+  <body class="page__body">
+    <header class="header">
+      <div class="container">
+        <div class="header__content">
+          <div class="top-bar">
+            <a
+              href="#"
+              class="top-bar__logo-link"
+            >
+              <img
+                src="src/images/Bakerlab.png"
+                alt="Bakerlab logo"
+                class="top-bar__logo"
+              />
+            </a>
+            <nav class="top-bar__nav">
+              <ul class="top-bar__list">
+                <li class="top-bar__item">
+                  <a
+                    class="top-bar__link"
+                    href="#products"
+                  >
+                    Products
+                  </a>
+                </li>
+                <li class="top-bar__item">
+                  <a
+                    class="top-bar__link"
+                    href="#about"
+                  >
+                    About Us
+                  </a>
+                </li>
+                <li class="top-bar__item">
+                  <a
+                    class="top-bar__link"
+                    href="#blog"
+                  >
+                    blog
+                  </a>
+                </li>
+                <li class="top-bar__item">
+                  <div class="top-bar-block">
+                    <a
+                      href="#"
+                      class="icon icon--phone"
+                    ></a>
+
+                    <a
+                      class="top-bar__link--contact"
+                      href="#contacts"
+                    >
+                      Contact Us
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </nav>
+
+            <a
+              href="#menu"
+              class="icon icon--menu"
+            ></a>
+          </div>
+          <div class="header__bottom">
+            <div class="header__photo--wrapper">
+              <img
+                class="header__photo"
+                src="src/images/cookie.png"
+                alt="Creative bakery cookie"
+              />
+            </div>
+            <div class="header__bottom--block">
+              <p class="header__desc">
+                We bake your fantasies —
+                <br />
+                croissants, cakes, cookies, and
+                <br />
+                cupcakes.
+              </p>
+              <h1 class="header__title">Creative bakery</h1>
+
+              <button class="header__button">
+                <a
+                  href="#"
+                  class="header__icon--button"
+                ></a>
+                Learn more
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <aside
+      class="page__menu menu"
+      id="menu"
+    >
+      <div class="container">
+        <div class="top-bar menu__top">
+          <a
+            href="#"
+            class="top-bar__logo-link"
+          >
+            <img
+              src="src/images/Bakerlab.png"
+              alt="Bakerlab logo"
+            />
+          </a>
+          <a
+            href="#"
+            class="icon icon--close"
+          ></a>
+        </div>
+        <div class="menu__bottom">
+          <nav class="nav menu__nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a
+                  class="nav__link"
+                  href="#products"
+                >
+                  Products
+                </a>
+              </li>
+              <li class="nav__item">
+                <a
+                  class="nav__link"
+                  href="#about"
+                >
+                  About Us
+                </a>
+              </li>
+              <li class="nav__item">
+                <a
+                  class="nav__link"
+                  href="#blog"
+                >
+                  blog
+                </a>
+              </li>
+              <li class="nav__item">
+                <a
+                  class="nav__link"
+                  href="#contacts"
+                >
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </aside>
     <script src="src/scripts/main.js"></script>
   </body>
 </html>

@@ -1,0 +1,74 @@
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 16px;
+
+  @include on-tablet {
+    padding-block: 44px;
+  }
+
+  &__nav {
+    display: none;
+
+    @include on-desktop {
+      display: flex;
+      flex: 0 0 auto;
+      align-items: center;
+    }
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 44px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__link {
+    color: $main-desc-color;
+    text-decoration: none;
+     text-transform: uppercase;
+  }
+
+  &__logo-link {
+    display: flex;
+  }
+
+  &__logo {
+    width: 168px;
+    height: 40px;
+  }
+
+  .icon--menu {
+    @include on-desktop {
+      display: none;
+    }
+  }
+  .icon--phone {
+    @include on-desktop {
+      display: block;
+    }
+  }
+
+  @include on-desktop {
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+  }
+
+  &-block{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+  }
+&__link--contact{
+  color: #F9512E;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+}
